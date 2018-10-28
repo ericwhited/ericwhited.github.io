@@ -45,20 +45,50 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#backgroundVideo {
-  width: 100%;
-  height: 100%; }
+nav li {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  padding: 15px; }
 
-div {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+a {
+  color: white;
+  text-decoration: none; }
+
+nav {
+  position: fixed;
   bottom: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  padding-bottom: 20px;
+  padding: 0 0 20px 30px; }
+
+body {
+  font-family: sans-serif; }
+
+.section {
+  height: 100vh;
+  width: 100%; }
+
+#heroArea {
+  background: #192152; }
+
+.mainHeading {
+  color: white; }
+
+#name {
+  font-size: 130px;
+  padding: 60px 0 0 80px; }
+
+#jobTitle {
+  font-size: 40px;
+  padding-left: 80px; }
+
+.button {
+  color: white;
+  background: none;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 6%;
+  margin: 30px 0 0 80px;
+  padding: 15px 15px; }
 
 /*# sourceMappingURL=main.css.map */
