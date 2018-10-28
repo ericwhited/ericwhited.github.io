@@ -61,6 +61,49 @@ nav {
   padding-bottom: 20px;
   padding: 0 0 20px 30px; }
 
+#projectSection {
+  background: #568133;
+  color: white;
+  display: inline-block; }
+
+.project {
+  margin-top: 50vh;
+  display: inline-block;
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+.side {
+  margin-right: 50px; }
+
+.wrapper {
+  margin-top: 25vh; }
+
+.projectName {
+  font-size: 45px; }
+
+.projectHeadline {
+  font-size: 70px;
+  line-height: 110%; }
+
+.projectDescription {
+  font-size: 20px;
+  width: 70%;
+  line-height: 110%; }
+
+.headings {
+  padding-bottom: 20px; }
+
+#checkItOut {
+  margin-top: 40px; }
+
+.projectSS {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px; }
+
 body {
   font-family: sans-serif; }
 
@@ -88,7 +131,9 @@ body {
   font-size: 20px;
   border: 1px solid white;
   border-radius: 6%;
-  margin: 30px 0 0 80px;
   padding: 15px 15px; }
+
+#cardButton {
+  margin: 30px 0 0 80px; }
 
 /*# sourceMappingURL=main.css.map */
