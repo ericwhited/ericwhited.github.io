@@ -1,0 +1,42 @@
+#heroArea {
+  background: rgb(25, 33, 82);
+}
+  
+#heroWrapper {
+  // border: 3px solid red;
+//   width: 35%;
+  height: 100vh;
+}
+
+#headingsWrap {
+    background: rgba(255, 255, 255, 0.212);
+    padding: 45px 0 0 65px;
+    width: 30%;
+}
+
+.mainHeading {
+  color: white;
+}
+
+.name {
+  font-size: 90px;
+}
+
+#lastName {
+    margin: 0 0 10px 5px;
+}
+
+#jobTitle {
+  font-size: 30px;
+  margin: 0 0 20px 5px;
+}
+
+#skillIconWrapper {
+  display: inline-block;
+  margin: 15px 0 0 0;
+}
+
+.skillIcons {
+  height: 40px;
+  padding: 2px;
+}

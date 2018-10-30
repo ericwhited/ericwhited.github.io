@@ -62,7 +62,7 @@ nav {
   padding: 0 0 5px 30px; }
 
 #projectSection {
-  background: #568133;
+  background: #5f9433;
   color: white;
   display: inline-block; }
 
@@ -82,57 +82,78 @@ nav {
   margin-top: 25vh; }
 
 .projectName {
-  font-size: 45px; }
+  font-size: 45px;
+  letter-spacing: -4px; }
 
 .projectHeadline {
-  font-size: 70px;
-  line-height: 110%; }
+  font-size: 60px;
+  line-height: 110%;
+  font-weight: 900; }
 
 .projectDescription {
   font-size: 20px;
   width: 70%;
-  line-height: 110%; }
+  line-height: 110%;
+  font-weight: 900; }
 
 .headings {
   padding-bottom: 20px; }
 
 .checkItOut {
-  margin-top: 40px; }
+  margin-top: 20px; }
 
 .projectSS {
-  height: 100%;
+  height: 90%;
   width: 100%;
   border-radius: 13px;
   box-shadow: rgba(0, 0, 0, 0.39) 0 40px 70px; }
 
+#heroArea {
+  background: #192152; }
+
+#heroWrapper {
+  height: 100vh; }
+
+#headingsWrap {
+  background: rgba(255, 255, 255, 0.212);
+  padding: 45px 0 0 65px;
+  width: 30%; }
+
+.mainHeading {
+  color: white; }
+
+.name {
+  font-size: 90px; }
+
+#lastName {
+  margin: 0 0 10px 5px; }
+
+#jobTitle {
+  font-size: 30px;
+  margin: 0 0 20px 5px; }
+
+#skillIconWrapper {
+  display: inline-block;
+  margin: 15px 0 0 0; }
+
+.skillIcons {
+  height: 40px;
+  padding: 2px; }
+
 body {
-  font-family: sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 .section {
   height: 100vh;
   width: 100%; }
 
-#heroArea {
-  background: #192152; }
-
-.mainHeading {
-  color: white; }
-
-#name {
-  font-size: 130px;
-  padding: 60px 0 0 80px; }
-
-#jobTitle {
-  font-size: 40px;
-  padding-left: 80px; }
-
 .button {
   color: white;
   background: none;
-  font-size: 20px;
-  border: 1px solid white;
-  border-radius: 6%;
-  padding: 15px 15px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 13px 13px;
   display: block; }
 
 .button:focus {
@@ -142,16 +163,5 @@ body {
   color: black;
   background: white;
   cursor: pointer; }
-
-#cardButton {
-  margin: 30px 0 0 80px; }
-
-#skillIconWrapper {
-  margin: 20px 0 0 80px;
-  display: inline-block; }
-
-.skillIcons {
-  height: 60px;
-  padding: 5px; }
 
 /*# sourceMappingURL=main.css.map */
