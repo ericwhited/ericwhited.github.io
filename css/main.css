@@ -132,7 +132,8 @@ nav {
 
 #skillIconWrapper {
   display: inline-block;
-  margin: 15px 0 0 0; }
+  margin: 15px 0 0 0;
+  font-weight: bold; }
 
 .skillIcons {
   height: 40px;
@@ -163,7 +164,7 @@ body {
 
 .button:hover {
   color: black;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

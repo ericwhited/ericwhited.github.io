@@ -1,10 +1,4 @@
-#heroArea {
-//   background: rgb(25, 33, 82);
-}
-  
 #heroWrapper {
-  // border: 3px solid red;
-//   width: 35%;
   height: 100vh;
 }
 
@@ -34,6 +28,7 @@
 #skillIconWrapper {
   display: inline-block;
   margin: 15px 0 0 0;
+  font-weight: bold;
 }
 
 .skillIcons {
