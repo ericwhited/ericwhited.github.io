@@ -96,13 +96,14 @@ nav {
 .headings {
   padding-bottom: 20px; }
 
-#checkItOut {
+.checkItOut {
   margin-top: 40px; }
 
 .projectSS {
   height: 100%;
   width: 100%;
-  border-radius: 10px; }
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.39) 0 40px 70px; }
 
 body {
   font-family: sans-serif; }
@@ -131,9 +132,26 @@ body {
   font-size: 20px;
   border: 1px solid white;
   border-radius: 6%;
-  padding: 15px 15px; }
+  padding: 15px 15px;
+  display: block; }
+
+.button:focus {
+  outline: 0; }
+
+.button:hover {
+  color: black;
+  background: white;
+  cursor: pointer; }
 
 #cardButton {
   margin: 30px 0 0 80px; }
+
+#skillIconWrapper {
+  margin: 20px 0 0 80px;
+  display: inline-block; }
+
+.skillIcons {
+  height: 60px;
+  padding: 5px; }
 
 /*# sourceMappingURL=main.css.map */
