@@ -1,5 +1,5 @@
 #heroArea {
-  background: rgb(25, 33, 82);
+//   background: rgb(25, 33, 82);
 }
   
 #heroWrapper {
@@ -9,13 +9,13 @@
 }
 
 #headingsWrap {
-    background: rgba(255, 255, 255, 0.212);
+    background: rgba(255, 255, 255, 0.4);
     padding: 45px 0 0 65px;
     width: 30%;
 }
 
 .mainHeading {
-  color: white;
+  color: black;
 }
 
 .name {
@@ -39,4 +39,9 @@
 .skillIcons {
   height: 40px;
   padding: 2px;
+}
+
+#cardButton {
+    color: black;
+    border: 2px solid black;
 }

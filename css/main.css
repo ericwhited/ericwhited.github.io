@@ -52,7 +52,8 @@ nav li {
   padding: 15px; }
 
 a {
-  color: white;
+  color: black;
+  font-weight: bold;
   text-decoration: none; }
 
 nav {
@@ -62,9 +63,9 @@ nav {
   padding: 0 0 5px 30px; }
 
 #projectSection {
-  background: #5f9433;
   color: white;
-  display: inline-block; }
+  display: inline-block;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); }
 
 .project {
   margin-top: 50vh;
@@ -92,7 +93,7 @@ nav {
 
 .projectDescription {
   font-size: 20px;
-  width: 70%;
+  width: 90%;
   line-height: 110%;
   font-weight: 900; }
 
@@ -106,21 +107,18 @@ nav {
   height: 90%;
   width: 100%;
   border-radius: 13px;
-  box-shadow: rgba(0, 0, 0, 0.39) 0 40px 70px; }
-
-#heroArea {
-  background: #192152; }
+  box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px; }
 
 #heroWrapper {
   height: 100vh; }
 
 #headingsWrap {
-  background: rgba(255, 255, 255, 0.212);
+  background: rgba(255, 255, 255, 0.4);
   padding: 45px 0 0 65px;
   width: 30%; }
 
 .mainHeading {
-  color: white; }
+  color: black; }
 
 .name {
   font-size: 90px; }
@@ -139,6 +137,10 @@ nav {
 .skillIcons {
   height: 40px;
   padding: 2px; }
+
+#cardButton {
+  color: black;
+  border: 2px solid black; }
 
 body {
   font-family: 'Montserrat', sans-serif; }

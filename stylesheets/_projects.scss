@@ -1,7 +1,7 @@
 #projectSection {
-    background: rgb(95, 148, 51);
     color: white;
     display: inline-block;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 .project {
@@ -39,7 +39,7 @@
 
 .projectDescription {
     font-size: 20px;
-    width: 70%;
+    width: 90%;
     line-height: 110%;
     font-weight: 900;
 
@@ -57,5 +57,5 @@
     height: 90%;
     width: 100%;
     border-radius: 13px;
-    box-shadow: rgba(0, 0, 0, 0.39) 0 40px 70px;
+    box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px;
 }
