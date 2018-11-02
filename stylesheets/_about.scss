@@ -1,0 +1,43 @@
+#about {
+    // height: 500px;
+    width: 100%;
+    padding: 40px 0;
+    background: white;
+}
+
+
+
+#aboutMeHeading {
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+
+#aboutMeDescription {
+    font-size: 25px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+#skillIconWrapper {
+    text-align: center;
+    font-weight: bold;
+    // background: rgba(255, 255, 255, 0.4);
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  
+.skillIcons {
+    height: 40px;
+    padding: 2px;
+}
+
+#aboutPhoto {
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+    // width: 30%;
+}

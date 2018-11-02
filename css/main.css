@@ -52,7 +52,7 @@ nav li {
   padding: 15px; }
 
 a {
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none; }
 
@@ -109,16 +109,24 @@ nav {
   border-radius: 13px;
   box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px; }
 
-#heroWrapper {
-  height: 100vh; }
+#heroArea {
+  padding-top: 25vh;
+  overflow: hidden; }
 
 #headingsWrap {
-  background: rgba(255, 255, 255, 0.4);
-  padding: 45px 0 0 65px;
-  width: 30%; }
+  text-shadow: black 0px 10px 17px;
+  padding: 45px 0 0 0;
+  width: 50%;
+  height: 40vh;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  font-weight: bold;
+  border: 4px solid white; }
 
 .mainHeading {
-  color: black; }
+  color: white; }
 
 .name {
   font-size: 90px; }
@@ -130,18 +138,38 @@ nav {
   font-size: 30px;
   margin: 0 0 20px 5px; }
 
+#about {
+  width: 100%;
+  padding: 40px 0;
+  background: white; }
+
+#aboutMeHeading {
+  text-align: center;
+  font-size: 50px;
+  padding: 40px; }
+
+#aboutMeDescription {
+  font-size: 25px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 50px; }
+
 #skillIconWrapper {
-  display: inline-block;
-  margin: 15px 0 0 0;
-  font-weight: bold; }
+  text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 3px;
+  margin-top: 20px; }
 
 .skillIcons {
   height: 40px;
   padding: 2px; }
 
-#cardButton {
-  color: black;
-  border: 2px solid black; }
+#aboutPhoto {
+  height: 200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block; }
 
 body {
   font-family: 'Montserrat', sans-serif; }
