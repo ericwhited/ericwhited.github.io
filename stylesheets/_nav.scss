@@ -5,15 +5,19 @@ nav li {
     padding: 15px;
 }
 
-a {
+nav a {
     color: white;
     font-weight: bold;
-    text-decoration: none;
 }
+
 
 nav {
     position: fixed;
     bottom: 0;
     padding-bottom: 20px;
     padding: 0 0 5px 30px;
+}
+
+nav:hover {
+    cursor: pointer;
 }

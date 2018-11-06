@@ -10,20 +10,22 @@
     <link rel="shortcut icon" type="image/png" href="images/e-icon-20.jpg"/>
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <!-- icons -->
 </head>
 <body>
     <!-- Hero Section -->
 
-    <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+    <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
             <iframe width="100%" height="115%" 
                 src="https://www.youtube.com/embed/fXR1RBWkniE?start=1&controls=0&autohide=0&mute=1&autoplay=1&showinfo=0&modestbranding=1&loop=1&playlist=fXR1RBWkniE">
-            </iframe>
+            </iframe> -->
 
 
             
-    </div>
+    <!-- </div> -->
 
     <main id="heroArea" class="section">
+        <img id="webpages" src="C:\Users\Eric\Desktop\ericwhited.github.io\images\WebPage.png" alt="webpages">
         <div id="headingsWrap">
             <h1 id="firstName" class="mainHeading name">Eric</h1>
             <h1 id="lastName" class="name mainHeading">Whited</h1>
@@ -34,17 +36,20 @@
 
     <!-- nav -->
     <nav>
+
+        <!-- add home link -->
+
         <ul>
             <li>
-                <a href="#">about</a>
+                <a name="#" id="aboutLink">about</a>
             </li>
 
-            <li>
-                <a href="#">contact</a>
-            </li>
+            <!-- <li>
+                <a name="#" id="contactLink">contact</a>
+            </li> -->
 
             <li>
-                <a href="#projectSection">projects</a>
+                <a name="#" id="projectLink">projects</a>
             </li>
         </ul>
     </nav>
@@ -53,6 +58,21 @@
     <div id="about">
         <!-- photo -->
         <img id="aboutPhoto" src="images/me.jpg" alt="me">
+
+        <!-- contact area -->
+        <!-- email icon -->
+        <img id="gmailIcon" class="contactIcons" src="images/gmail.png" alt="gmail">
+        <a class="contactLink"  href="mailto:eric.whited@gmail.com">Email Me</a>
+        <!-- <span>eric.whited93@gmail.com</span> -->
+
+        <!-- linkedIn -->
+        <img id="linkedInIcon" class="contactIcons" src="images/linkedIn.png" alt="linkedIn">
+        <a class="contactLink" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eric-whited/">Connect on LinkedIn</a>
+
+        <!-- github -->
+        <img id="githubIcon" class="contactIcons" src="images/github.png" alt="github">
+        <a class="contactLink" target="_blank" rel="noopener noreferrer" href="https://github.com/ericwhited">Visit my GitHub</a>
+        
 
         <!-- headings -->
         <h1 id="aboutMeHeading" class="aboutText">About Eric</h1>
