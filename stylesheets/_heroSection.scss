@@ -1,42 +1,51 @@
 #heroArea {
-  padding-top: 25vh;
+  padding-top: 19vh;
+  // overflow: hidden;
+  height: 100vh;
   overflow: hidden;
+  background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
+  // background-image: url('images/WebPage.png')
   // background: rgba(207, 31, 31, 0.103);
-
+  // background: black;
 }
 
 #headingsWrap {
-  text-shadow: black 0px 10px 17px;
+//   // text-shadow: black 0px 10px 17px;
   padding: 45px 0 52px 0;
   width: 50%;
-  // height: 30vh;
+  height: 30vh;
   margin: 0 auto;
   text-align: center;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  font-weight: bold;
-  border: 4px solid white;
-  
-}
-#blur {
-  // filter: blur(13px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 340px;
+  color: white;
+//   // background: rgba(255, 255, 255, 0.3);
+//   border-radius: 15px;
+//   font-weight: bold;
+//   // border: 4px solid white;
 }
 
-.mainHeading {
-  color: white;
+#webpages {
+  display: block;
+  margin: 0 auto;
 }
+
 
 .name {
   font-size: 90px;
 }
 
 #lastName {
-    // margin: 0 0 10px 5px;
+  // position: absolute;
+  top: 490px;
+  left: 0;
+  right: 0;
 }
 
 #jobTitle {
   font-size: 30px;
-  // margin: 0 0 0 5px;
 }
 
 // #cardButton {
