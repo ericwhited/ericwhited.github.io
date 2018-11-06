@@ -112,7 +112,7 @@ nav:hover {
   box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px; }
 
 #heroArea {
-  padding-top: 19vh;
+  padding-top: 11vh;
   height: 100vh;
   overflow: hidden;
   background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12); }
@@ -126,7 +126,7 @@ nav:hover {
   position: absolute;
   left: 0;
   right: 0;
-  top: 340px;
+  top: 250px;
   color: white; }
 
 #webpages {

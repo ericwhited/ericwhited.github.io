@@ -1,16 +1,12 @@
 #heroArea {
-  padding-top: 19vh;
-  // overflow: hidden;
+  padding-top: 11vh;
   height: 100vh;
   overflow: hidden;
   background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
-  // background-image: url('images/WebPage.png')
-  // background: rgba(207, 31, 31, 0.103);
-  // background: black;
+
 }
 
 #headingsWrap {
-//   // text-shadow: black 0px 10px 17px;
   padding: 45px 0 52px 0;
   width: 50%;
   height: 30vh;
@@ -19,19 +15,14 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 340px;
+  top: 250px;
   color: white;
-//   // background: rgba(255, 255, 255, 0.3);
-//   border-radius: 15px;
-//   font-weight: bold;
-//   // border: 4px solid white;
 }
 
 #webpages {
   display: block;
   margin: 0 auto;
 }
-
 
 .name {
   font-size: 90px;
@@ -48,12 +39,3 @@
   font-size: 30px;
 }
 
-// #cardButton {
-//     color: white;
-//     border: 2px solid white;
-//     margin: 0 auto;
-//     margin-bottom: 20px;
-//     font-weight: bold;
-//   text-shadow: black 0px 10px 17px;
-
-// }
