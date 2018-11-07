@@ -48,7 +48,7 @@ table {
 #navBox {
   height: 150px;
   width: 40px;
-  background: rgba(128, 128, 128, 0.6);
+  background: rgba(128, 128, 128, 0.8);
   position: fixed;
   top: 45vh;
   color: white;
@@ -76,7 +76,11 @@ nav li {
   padding: 10px 0; }
 
 nav {
-  visibility: hidden; }
+  visibility: hidden;
+  position: fixed; }
+
+a:hover {
+  cursor: pointer; }
 
 #projectSection {
   color: white;
@@ -129,6 +133,7 @@ nav {
   height: 100vh;
   overflow: hidden;
   background-image: url("../images/heroBackground.png");
+  background-attachment: fixed;
   background-size: cover; }
 
 #gradient {
@@ -165,6 +170,11 @@ nav {
   width: 100%;
   position: fixed;
   top: 0; }
+
+#downIcon {
+  margin: 0 auto;
+  display: block;
+  height: 50px; }
 
 #about {
   width: 100%;

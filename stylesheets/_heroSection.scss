@@ -3,6 +3,8 @@
   overflow: hidden;
   // background: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
   background-image: url('../images/heroBackground.png');
+  background-attachment: fixed;
+
   background-size: cover;
 }
 
@@ -50,3 +52,8 @@
   top: 0;
 }
 
+#downIcon {
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+}
