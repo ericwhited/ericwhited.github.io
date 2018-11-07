@@ -1,9 +1,20 @@
 #heroArea {
-  padding-top: 11vh;
   height: 100vh;
   overflow: hidden;
-  background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
+  // background: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
+  background-image: url('../images/heroBackground.png');
+  background-size: cover;
+}
 
+#gradient {
+  // padding-top: 11vh;
+  // background-image: linear-gradient(to right, rgba(217,85,138, 0.5), rgba(254,101,100, 0.5) rgba(255,141,50, 0.5));
+  // background-image: linear-gradient(to right, rgb(217,85,138), rgb(254,101,100));
+  opacity: 0.2;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 #headingsWrap {
@@ -21,7 +32,7 @@
 
 #webpages {
   display: block;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .name {
@@ -30,5 +41,12 @@
 
 #jobTitle {
   font-size: 30px;
+}
+
+#phillyBackground {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 

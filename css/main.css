@@ -115,10 +115,17 @@ nav:hover {
   box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px; }
 
 #heroArea {
-  padding-top: 11vh;
   height: 100vh;
   overflow: hidden;
-  background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12); }
+  background-image: url("../images/heroBackground.png");
+  background-size: cover; }
+
+#gradient {
+  opacity: 0.2;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0; }
 
 #headingsWrap {
   padding: 45px 0 52px 0;
@@ -134,18 +141,19 @@ nav:hover {
 
 #webpages {
   display: block;
-  margin: 0 auto; }
+  margin: 100px auto; }
 
 .name {
   font-size: 90px; }
 
-#lastName {
-  top: 490px;
-  left: 0;
-  right: 0; }
-
 #jobTitle {
   font-size: 30px; }
+
+#phillyBackground {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0; }
 
 #about {
   width: 100%;
