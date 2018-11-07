@@ -45,26 +45,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+#navBox {
+  height: 150px;
+  width: 40px;
+  background: rgba(128, 128, 128, 0.8);
+  position: fixed;
+  top: 45vh;
+  color: white;
+  background-image: url("../images/rightIcon.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  transition: all 0.2s ease-in-out; }
+
+#navBox:hover {
+  transform: scaleX(5) scaleY(1.5);
+  background-position-x: -30px; }
+
+.navShow {
+  position: fixed;
+  top: 45vh;
+  color: white;
+  margin-top: 10px;
+  left: 10px;
+  font-size: 25px;
+  visibility: visible;
+  transition: all 0.2s ease-in-out; }
+
 nav li {
-  color: white;
-  display: inline-block;
-  font-size: 30px;
-  padding: 15px; }
-
-nav a {
-  color: white;
-  font-weight: bold; }
-
-nav ul {
-  background: rgba(0, 0, 0, 0.308); }
+  padding: 10px 0; }
 
 nav {
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 20px;
-  padding: 0 0 5px 30px; }
+  visibility: hidden;
+  position: fixed; }
 
-nav:hover {
+a:hover {
   cursor: pointer; }
 
 #projectSection {
@@ -118,6 +133,7 @@ nav:hover {
   height: 100vh;
   overflow: hidden;
   background-image: url("../images/heroBackground.png");
+  background-attachment: fixed;
   background-size: cover; }
 
 #gradient {
@@ -154,6 +170,11 @@ nav:hover {
   width: 100%;
   position: fixed;
   top: 0; }
+
+#downIcon {
+  margin: 0 auto;
+  display: block;
+  height: 50px; }
 
 #about {
   width: 100%;
