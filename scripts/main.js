@@ -1,12 +1,16 @@
 var aboutLink = document.getElementById('aboutLink');
-var contactLink = document.getElementById('contactLink');
+var homeLink = document.getElementById('homeLink');
 var projectLink = document.getElementById('projectLink');
 
 var aboutPage = document.getElementById('about');
-// var contactPage = document.getElementById('contact');
+var homePage = document.getElementById('heroArea');
 var projectPage = document.getElementById('projectSection');
 
 
+
+homeLink.addEventListener('click', function(){
+    homePage.scrollIntoView({behavior: 'smooth'})
+})
 
 aboutLink.addEventListener('click', function(){
     aboutPage.scrollIntoView({behavior: 'smooth'});
@@ -15,3 +19,5 @@ aboutLink.addEventListener('click', function(){
 projectLink.addEventListener('click', function(){
     projectPage.scrollIntoView({behavior: 'smooth'});
 })
+
+
