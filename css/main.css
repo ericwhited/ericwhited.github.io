@@ -51,16 +51,21 @@ nav li {
   font-size: 30px;
   padding: 15px; }
 
-a {
+nav a {
   color: white;
-  font-weight: bold;
-  text-decoration: none; }
+  font-weight: bold; }
+
+nav ul {
+  background: rgba(0, 0, 0, 0.308); }
 
 nav {
   position: fixed;
   bottom: 0;
   padding-bottom: 20px;
   padding: 0 0 5px 30px; }
+
+nav:hover {
+  cursor: pointer; }
 
 #projectSection {
   color: white;
@@ -110,61 +115,117 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.39) 0 50px 70px; }
 
 #heroArea {
-  padding-top: 25vh;
-  overflow: hidden; }
+  padding-top: 11vh;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12); }
 
 #headingsWrap {
-  text-shadow: black 0px 10px 17px;
   padding: 45px 0 52px 0;
   width: 50%;
+  height: 30vh;
   margin: 0 auto;
   text-align: center;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  font-weight: bold;
-  border: 4px solid white; }
-
-.mainHeading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 250px;
   color: white; }
+
+#webpages {
+  display: block;
+  margin: 0 auto; }
 
 .name {
   font-size: 90px; }
+
+#lastName {
+  top: 490px;
+  left: 0;
+  right: 0; }
 
 #jobTitle {
   font-size: 30px; }
 
 #about {
   width: 100%;
-  padding: 40px 0;
+  height: 100vh;
+  overflow: hidden;
   background: white; }
 
 #aboutMeHeading {
   text-align: center;
   font-size: 50px;
-  padding: 40px; }
+  padding: 0 0 20px 0; }
 
 #aboutMeDescription {
-  font-size: 25px;
+  font-size: 20px;
   width: 80%;
   margin: 0 auto;
-  line-height: 50px; }
+  line-height: 40px; }
 
-#skillIconWrapper {
+.skillIconWrapper {
   text-align: center;
   font-weight: bold;
   padding: 3px;
-  border-radius: 3px;
-  margin-top: 40px; }
+  border-radius: 3px; }
 
 .skillIcons {
-  height: 60px;
+  height: 40px;
   padding: 2px; }
 
 #aboutPhoto {
   height: 200px;
   border-radius: 100px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: block; }
+
+.contactIcons {
+  height: 50px;
+  display: block;
+  text-align: center;
+  margin: 5px auto; }
+
+.contactLinks {
+  color: black; }
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+  margin: 0 auto; }
+
+#contactSection {
+  display: block;
+  text-align: center;
+  margin-bottom: 90px; }
+
+#aboutMeLeft {
+  padding: 15px 0 40px 0;
+  border-right: 1px solid gray; }
+
+#skillsRight {
+  text-align: center;
+  padding: 15px 0 40px 0; }
+
+#skillsHeading {
+  font-size: 50px; }
+
+.subSkillHeading {
+  padding-top: 45px;
+  font-size: 25px;
+  margin-bottom: 5px; }
+
+.contactWrap {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  width: 9%; }
+
+#gitHubWrap {
+  border-left: 1px solid gray; }
+
+#emailWrap {
+  border-right: 1px solid gray; }
 
 body {
   font-family: 'Montserrat', sans-serif; }
@@ -189,5 +250,8 @@ body {
   color: black;
   background: rgba(255, 255, 255, 0.5);
   cursor: pointer; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
