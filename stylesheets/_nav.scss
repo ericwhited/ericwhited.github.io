@@ -3,6 +3,7 @@ nav li {
     display: inline-block;
     font-size: 30px;
     padding: 15px;
+    
 }
 
 nav a {
@@ -10,6 +11,9 @@ nav a {
     font-weight: bold;
 }
 
+nav ul {
+    background: rgba(0, 0, 0, 0.308);
+}
 
 nav {
     position: fixed;
