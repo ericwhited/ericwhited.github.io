@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var aboutLink = document.getElementById('aboutLink');
 var homeLink = document.getElementById('homeLink');
 var projectLink = document.getElementById('projectLink');
@@ -27,8 +26,3 @@ var downArrow = document.getElementById('downIcon')
 downArrow.addEventListener('click', function(){
     aboutPage.scrollIntoView({behavior: 'smooth'});
 })
-=======
-function scrolling() {
-    window.scrollTo('#projectSection')
-}
->>>>>>> master
