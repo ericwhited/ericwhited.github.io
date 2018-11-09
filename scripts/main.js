@@ -21,3 +21,8 @@ projectLink.addEventListener('click', function(){
 })
 
 
+var downArrow = document.getElementById('downIcon')
+
+downArrow.addEventListener('click', function(){
+    aboutPage.scrollIntoView({behavior: 'smooth'});
+})
