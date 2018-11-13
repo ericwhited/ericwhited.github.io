@@ -52,15 +52,10 @@ table {
   position: fixed;
   top: 45vh;
   color: white;
-  background-image: url("../images/rightIcon.png");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
-  transition: all 0.2s ease-in-out; }
-
-#navBox:hover {
-  transform: scaleX(5) scaleY(1.5);
-  background-position-x: -30px; }
+  transform: scaleX(5) scaleY(1.5); }
 
 .navShow {
   position: fixed;
@@ -76,7 +71,6 @@ nav li {
   padding: 10px 0; }
 
 nav {
-  visibility: hidden;
   position: fixed; }
 
 a:hover {
