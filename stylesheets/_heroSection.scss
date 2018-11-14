@@ -1,11 +1,11 @@
 #heroArea {
   height: 100vh;
   overflow: hidden;
-  // background: linear-gradient(to right top, #d9558a, #fe6564, #ff8d32, #e8bd00, #a8eb12);
   background-image: url('../images/heroBackground.png');
   background-attachment: fixed;
-
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 #gradient {
@@ -32,10 +32,10 @@
   color: white;
 }
 
-#webpages {
-  display: block;
-  margin: 100px auto;
-}
+// #webpages {
+//   display: block;
+//   margin: 100px auto;
+// }
 
 .name {
   font-size: 90px;
@@ -53,11 +53,23 @@
 }
 
 #downIcon {
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
   height: 50px;
 }
 
 #downIcon:hover {
   cursor: pointer;
+}
+
+.webpages {
+  background-image: url("../images/Group 31.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  // background: red;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
 }

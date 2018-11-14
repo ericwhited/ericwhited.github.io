@@ -128,7 +128,9 @@ a:hover {
   overflow: hidden;
   background-image: url("../images/heroBackground.png");
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
 
 #gradient {
   opacity: 0.2;
@@ -149,10 +151,6 @@ a:hover {
   top: 250px;
   color: white; }
 
-#webpages {
-  display: block;
-  margin: 100px auto; }
-
 .name {
   font-size: 90px; }
 
@@ -166,12 +164,22 @@ a:hover {
   top: 0; }
 
 #downIcon {
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
   height: 50px; }
 
 #downIcon:hover {
   cursor: pointer; }
+
+.webpages {
+  background-image: url("../images/Group 31.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  flex: 1; }
 
 #about {
   width: 100%;
